@@ -1,0 +1,137 @@
+:link {
+    text-decoration: none;
+    color: currentColor
+}
+:visited {
+    text-decoration: none;
+    color: currentColor
+}
+:active {
+    text-decoration: none;
+    color: currentColor
+}
+:hover {
+    text-decoration: none;
+    color: currentColor
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(0, 157, 255), white);
+    min-height: 100vh;
+}
+
+
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.btn_voltar {
+    position: absolute;
+    padding: 1.5%;
+    font-weight: 350;
+    color: white;
+    top: 13%;
+    right: 23%;
+    font-size: clamp(8px, 5vw, 25px);
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    
+}
+
+
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon_image {
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+
+}
+
+.pokemon_data {
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    /* formula font-size: clamp leva os valores "minimo, desejavel e máximo"*/
+    font-size: clamp(8px, 5vw, 25px);
+
+}
+
+.pokemon_name {
+    color: rgb(54, 54, 54);
+    text-transform: capitalize;
+}
+
+.form {
+    position: absolute;
+    background-color: red;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}   
+
+.input_search {
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #444;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #444;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333
+}
+
+.buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+
+
+}
+
+
+.button {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+
+}
+
+.button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
