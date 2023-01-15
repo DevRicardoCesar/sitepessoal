@@ -2,7 +2,6 @@
 :root{
     --cor-menus:#66686b;
 
-
 }
 
 :link {
@@ -43,6 +42,11 @@
 .contatos_header {
     color: black;
     
+}
+
+.class_global {
+    background-color: white;
+
 }
 
 
@@ -165,4 +169,18 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.titulo_secao {
+    margin-left: 20px;
+    height: 75px;
+    text-decoration: underline;
+}
+
+.logo_faculdade {
+    position: absolute;
+}
+
+.container_formacao {
+    height: 130px;
 }
